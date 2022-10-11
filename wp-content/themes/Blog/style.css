@@ -15,12 +15,32 @@ License: GNU v3 or Later
  
 .top_content{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+
 }
  
 .top_content_center {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     column-gap: 10px;
 }
- 
+ .top_content_left img {
+    width: 90%;
+    height:400px;
+ }
+ .newupdate img{
+     width: 90%;
+     height: 100px;
+ }
+ .newcontet img{
+     width:90%;
+     height:150px;
+ }
+ .newupdate{
+    display: flex;
+ }
+ .top_content_left a{
+     color:blue;
+ }

@@ -163,7 +163,7 @@ if (!function_exists('congbio_pagination')) {
 add_filter( 'the_title', 'shorten_post_title', 10, 2 );
 function shorten_post_title( $title, $id ) {
     if (get_post_type( $id ) === 'post' & !is_single() ) {
-        return wp_trim_words( $title, 5 ); // thay đổi số từ bạn muốn hiển thị
+        return wp_trim_words( $title, 15 ); // thay đổi số từ bạn muốn hiển thị
     } else {
         return $title;
     }
@@ -247,12 +247,13 @@ if (!function_exists('congbio_entry_meta')) {
 /*
    * Thêm chữ Read More vào excerpt
    */
-  function congbio_readmore()
-  {
-    return '…<a class="read-more" href="' . get_permalink(get_the_ID()) . '">' . __('Read More', 'congbio') . '</a>';
-  }
-  add_filter('excerpt_more', 'congbio_readmore');
-  
+function congbio_readmore()
+{
+  return '…<a class="read-more" href="' . get_permalink(get_the_ID()) . '">' . __('Read More', 'congbio') . '</a>';
+}
+add_filter('excerpt_more', 'congbio_readmore');
+
+
 
 // Hàm hiển thị nội dung của post type
 // Hàm này sẽ hiển thị đoạn rút gọn của post ngoài trang chủ (the_excerpt)
@@ -268,7 +269,7 @@ if (!function_exists('congbio_entry_content')) {
   {
     if (!is_single()) :
       
-      the_excerpt(15);
+      the_excerpt(10);
     else :
       the_content();
       /*
@@ -467,4 +468,3 @@ wp_enqueue_script('slide-script');
 
 }
 add_action('wp_enqueue_scripts', 'congbio_styles');
-
