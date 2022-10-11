@@ -268,7 +268,7 @@ input[type=button] {
   height: 33px;
 }
 .header .infor__logo img {
-  width: 100px;
+  width: 150px;
   height: 80px;
 }
 .header .infor__logoSocial i {
@@ -278,9 +278,13 @@ input[type=button] {
   display: flex;
 }
 
+.fa-facebook{
+    color: rgb(10, 100, 200);
+}
+
 .fuild_header {
   width: 100%;
-  background-color: blue;
+  background-color: rgb(0, 106, 245);
 }
 .fuild_header .header_mainmenu {
   background-color: var(--black);
@@ -557,4 +561,7 @@ main {
   grid-gap: 20px;
 }
 
+.watch{
+    border: 1px solid black;
+}
 /*# sourceMappingURL=app.css.map */

@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
     <div class="c__containerfooter">
         <div class="c__container">
             <div class="left box">
@@ -46,4 +46,4 @@
 <?php wp_footer(); ?>
 </body>
 
-</html>
+</html> -->

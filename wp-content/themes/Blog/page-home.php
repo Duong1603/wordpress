@@ -10,7 +10,9 @@ get_header(); ?>
         <div class="top_content">
             <div class="top_content_left">
                 <?php get_template_part('teamplate-content/home', 'show_random_post'); ?>
-                <?php get_template_part('teamplate-content/home', 'random_title'); ?>
+                <?php 
+                // get_template_part('teamplate-content/home', 'random_title'); 
+                ?>
             </div>
             <div class="top_content_center">
                 <?php get_template_part('teamplate-content/home', 'show-standing'); ?>
@@ -24,4 +26,4 @@ get_header(); ?>
 
 
 
-<?php get_footer(); ?>
+<!-- <?php get_footer(); ?> -->

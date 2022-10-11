@@ -22,14 +22,14 @@
             <div class="vov">
                 <ul class="vov__name">
                     <!-- <li><i class="fa-solid fa-house"></i></li> -->
-                    <li>VOV1</li>
-                    <li>VOV2</li>
-                    <li>VOV3</li>
-                    <li>VOV4</li>
-                    <li>VOV5</li>
-                    <li>VOV6</li>
+                    <li>VOV 1</li>
+                    <li>VOV 2</li>
+                    <li>VOV 3</li>
+                    <li>VOV 4</li>
+                    <li>VOV 5</li>
+                    <li>VOV 6</li>
                     <li>VOV GT</li>
-                    <li>VTC HD</li>
+                    <li>VTC</li>
                 </ul>
             </div>
             <div class="infor">
@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div>
-                    <p>Thứ 5, nagy 23 tháng 10 nă 2022</p>
+                    <p>ngày 23 tháng 10 năm 2022</p>
                 </div>
                 <div class="infor__logoSocial">
                     <i class="fa-brands fa-facebook"></i>
@@ -49,7 +49,7 @@
                     <i class="fa-brands fa-youtube"></i>
                 </div>
                 <div>
-                    <p>xem & nghe </p>
+                    <p id="watch">xem & nghe </p>
                 </div>
                 <div>
                     <p>English </p>

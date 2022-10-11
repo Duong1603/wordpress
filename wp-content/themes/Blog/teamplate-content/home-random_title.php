@@ -1,6 +1,6 @@
 <?php
 $args = array(
-	'posts_per_page' => 10,  //Số lượng bài viết muốn lấy
+	'posts_per_page' => 4,  //Số lượng bài viết muốn lấy
 	'orderby' => 'rand',
 	'post_type' => 'post'
 );
