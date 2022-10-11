@@ -99,7 +99,7 @@ forEach($categories as $category){
 <div class="widget widget_product_cloud">
     <h2 class="widget-title"> Sách mới</h2>
     <div class="tagcloud">
-        <?php $args = array('posts_per_page' => 8, 'post_type' => 'product');?>
+        <?php $args = array('posts_per_page' => 10, 'post_type' => 'product');?>
         <?php $the_query = new WP_Query($args); ?>
        <?php if ($the_query->have_posts()) : ?>
         <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>

@@ -11,9 +11,16 @@ Version: 1.0.0
 Text Domain: duongAKT
 License: GNU v3 or Later 
 */
- 
- 
 
  
-
+.top_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ 
+.top_content_center {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
  

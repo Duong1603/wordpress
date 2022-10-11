@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div>
-                    <p>ngày 23 tháng 10 năm 2022</p>
+                    <p>23 tháng 10 năm 2022</p>
                 </div>
                 <div class="infor__logoSocial">
                     <i class="fa-brands fa-facebook"></i>
