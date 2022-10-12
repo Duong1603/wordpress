@@ -9,8 +9,8 @@ get_header(); ?>
   <div class="content">
     <div class="top_content">
       <div class="top_content_left">
-        <?php get_template_part('teamplate-content/home', 'show_random_post'); ?>
-        <?php get_template_part('teamplate-content/home', 'random_title'); ?>
+        <?php get_template_part('teamplate-content/home', 'show_post'); ?>
+        <?php get_template_part('teamplate-content/home', 'title'); ?>
       </div>
       <div class="top_content_right">
 
