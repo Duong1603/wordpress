@@ -20,28 +20,12 @@ get_header(); ?>
       </div>
 
     </div>
-    <!-- <div class="slide_post_standing">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-          <div class="swiper-slide">Resize me!</div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </div> -->
+
   </div>
+  <?php 
+    $request = wp_remote_get(`https://63466a7d9eb7f8c0f87b0187.mockapi.io/wordpress`);
+    $data = json_decode( wp_remote_retrieve_body( $request ) );
+  ?>
 </main>
-
-
-
 
 <?php get_footer(); ?>
